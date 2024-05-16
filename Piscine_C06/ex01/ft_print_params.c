@@ -23,7 +23,7 @@ int	main(int ac, char **av)
 	int	j;
 
 	i = 1;
-	while (ac > 1)
+	while (i < ac)
 	{
 		j = 0;
 		while (av[i][j] != '\0')
